@@ -44,7 +44,7 @@ class DetailCategoryFragment : Fragment() {
 
         binding.btnHome.setOnClickListener(
             Navigation.createNavigateOnClickListener(R.id.action_detailCategoryFragment_to_homeFragment)
-            )
+        )
     }
 
     override fun onDestroy() {
